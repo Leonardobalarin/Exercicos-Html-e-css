@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: pseudo-element
+            > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            
+
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: 'link';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://www.youtube.com/channel/UCzlD4ZWw4OBZM_B2v264GEw" target="_blank">Canal do youtube</a></li>
+    <li><a href="https://www.facebook.com/leo.balarine" target="_blank">Facebook</a></li>
+    <li><a href="https://www.instagram.com/leeoballarine/" target="_blank">Instagram</a></li>
+
+</body>
+</html>

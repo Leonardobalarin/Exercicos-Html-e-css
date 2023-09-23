@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+         table{
+            border-collapse: collapse;
+            width: 300px;
+            height: 300px;
+            
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 20px;
+
+        }
+      col.cnome{
+        background-color: aqua;
+      }
+      col.csexo{
+        background-color: brown;
+      }
+      col.cidade{
+        background-color: blueviolet;
+      }
+      col.cprof{
+        background-color: darkblue;
+      }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela </h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Progamador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Helio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Otavio</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
