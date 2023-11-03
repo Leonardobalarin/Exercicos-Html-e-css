@@ -25,6 +25,10 @@ main{
     padding: 10px;
     
 }
+img{
+    display: block;
+    margin: auto;
+}
 h1{
     text-align: center;
     color: white;
